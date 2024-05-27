@@ -1,0 +1,73 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+
+
+.main {
+	font-family: 'Poppins', sans-serif;
+	background-color: rgba(128, 128, 128, 0.7);;
+}
+
+.container {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 60%;
+	transform: translate(-50%, -50%);
+	border-radius: 20px;
+	-webkit-box-shadow: 0px 0px 15px 0px rgba(125, 125, 125, 0.5);
+	-moz-box-shadow: 0px 0px 15px 0px rgba(125, 125, 125, 0.5);
+	box-shadow: 0px 0px 15px 0px rgba(125, 125, 125, 0.5);
+}
+
+
+.content {
+	width: 100%;
+	padding: 2rem 1rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.signin-image{
+	width: 50%;
+	padding: 2rem 1rem;
+}
+.signup-image{
+	padding: 1rem 2rem;
+}
+.form{
+	width: 50%;
+	padding: 0 2rem;
+}
+.form-title{
+	font-size: 2rem;
+	margin: 1rem 0 1.5rem 0;
+}
+
+
+.form-button{
+	margin: 2rem 0;
+}
+.form-button input{
+	font-size: 1rem;
+	color: #fff;
+	background-color: #212529;
+	padding: 0.5rem 0.75rem ;
+	border-radius: 15px;
+}
+
+input{
+	border: none;
+	outline: none;
+	padding: 0.5rem 0.5rem;
+	border-bottom: 1px solid #444;
+	margin-bottom: 1.5rem;
+	width: 80%;
+}
+label>span{
+	transform: translateY(40%);
+}
+
+.signup-link{
+	margin-left: 2rem;
+}
